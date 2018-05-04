@@ -1,0 +1,24 @@
+{
+  "name": "statyou",
+  "version": "1.0.0",
+  "description": "Main web project of statyou",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "self-tracking",
+    "time-planning",
+    "daily-review",
+    "effective-time-management"
+  ],
+  "author": "Sangwoo Park",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Naksso/statyou-web.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
