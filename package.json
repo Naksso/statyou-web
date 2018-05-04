@@ -19,6 +19,10 @@
     "url": "https://github.com/Naksso/statyou-web.git"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.24.4",
     "gulp": "^4.0.0"
   }
 }
