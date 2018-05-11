@@ -16,4 +16,11 @@ gulp.task( 'watch', function() {
 			resolve();
 		} );
 	} );
+
+	gulp.watch( './app/assets/styles/**/*.css', gulp.series( 'styles', 'cssInject' ) );
+} );
+
+gulp.task( 'cssInject', function() {
+	return gulp.src( './app/temp/styles/styles.css' )
+		.pipe( browserSync.stream() );
 } );
