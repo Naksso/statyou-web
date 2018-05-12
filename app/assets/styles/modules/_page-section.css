@@ -4,4 +4,9 @@
 	@mixin atMedium {
 		padding: 5.5rem 0;
 	}
+
+	&--theme {
+		background-color: $mainDarkTeal;
+		color: #FFF;
+	}
 }
