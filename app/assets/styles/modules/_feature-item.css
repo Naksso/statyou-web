@@ -1,0 +1,14 @@
+.feature-item {
+	position: relative;
+
+	@mixin atSmall {
+		padding-left: 94px;
+	}
+
+	&__icon {
+		@mixin atSmall {
+			position: absolute;
+			left: 0;
+		}
+	}
+}
