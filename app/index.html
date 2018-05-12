@@ -26,13 +26,19 @@
 		</nav>
 	</div>
 </header>
-<section>
-	<div>
-		<img src="./assets/images/banner--large-hi-dpi.jpg" />
-		<h1>DON&apos;T PLAN, NOW REVIEW</h1>
-		<p>Find a little more time for the things you love to do.</p>
-		<img src="./assets/images/google-play-badge.png" alt="Get it on Google Play"/>
+<section class="banner">
+	<picture>
+		<source srcset="assets/images/banner--large.jpg 1920w, assets/images/banner--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)" />
+		<source srcset="assets/images/banner--medium.jpg 1380w, assets/images/banner--medium-hi-dpi.jpg 2760w" media="(min-width: 990px)" />
+		<source srcset="assets/images/banner--small.jpg 990w, assets/images/banner--small-hi-dpi.jpg 1980w" media="(min-width: 640px)" />
+		<img srcset="assets/images/banner--smaller.jpg 640w, assets/images/banner--smaller-hi-dpi.jpg 1280w" alt="A man writing on paper" class="banner__image" />
+	</picture>
+	<div class="banner__text-content">
+		<h1 class="banner__title">Don&apos;t plan, now review</h1>
+		<p class="banner__description">Find a little more time for the things you love to do.</p>
+		<a href="#"><img width="170" src="./assets/images/google-play-badge.png" alt="Get it on Google Play"/></a>
 	</div>
+
 </section>
 <section>
 	<div>
