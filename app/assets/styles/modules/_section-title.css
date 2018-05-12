@@ -15,8 +15,23 @@
 		color: $themeColor;
 	}
 
+	&--orange {
+		color: $mainOrange;
+	}
+
+	&--small {
+		font-size: 1.2rem;
+
+		@mixin atSmall {
+			font-size: 1.875rem;
+		}
+	}
 
 	&--b-margin-small {
 		margin-bottom: .5rem;
+	}
+
+	&--b-margin-large {
+		margin-bottom: 1.5rem;
 	}
 }
