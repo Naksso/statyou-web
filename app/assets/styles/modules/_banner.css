@@ -1,11 +1,16 @@
 .banner {
 	&__text-content {
 		position: absolute;
+		padding-top: 100px;
 		top: 50%;
-		transform: translateY(-50%);
+		transform: translateY(-40%);
 		left: 0;
 		width: 100%;
 		text-align: center;
+
+		@mixin atMedium {
+			padding-top: 80px;
+		}
 	}
 
 	&__title {
