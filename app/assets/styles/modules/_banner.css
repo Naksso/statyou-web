@@ -1,5 +1,11 @@
 .banner {
+	border-bottom: 10px solid $themeColor;
 	position: relative;
+
+	&__image {
+		display: block;
+	}
+
 	&__text-content {
 		position: absolute;
 		padding-top: 88px;
