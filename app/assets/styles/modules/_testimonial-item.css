@@ -3,8 +3,10 @@
 
 	&__photo {
 		display: block;
-		margin: 0 auto;
+		margin: 0 auto -80px auto;
 		border-radius: 50%;
 		border: 6px solid rgba(#FFF, .7);
+		position: relative;
+		top: -80px;
 	}
 }
