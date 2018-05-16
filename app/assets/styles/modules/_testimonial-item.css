@@ -1,0 +1,29 @@
+.testimonial-item {
+	background: rgba(#FFF, .7);
+	padding: 0 18px 1px 18px;
+
+	&__photo {
+		display: block;
+		margin: 0 auto -80px auto;
+		border-radius: 50%;
+		border: 6px solid rgba(#FFF, .7);
+		position: relative;
+		top: -80px;
+	}
+
+	&__title {
+		color: $themeColor;
+		text-align: center;
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin: 0;
+	}
+
+	&__subtitle {
+		color: $mainOrange;
+		text-align: center;
+		font-weight: 400;
+		font-size: 0.9375rem;
+		margin: .25rem 0 1rem 0;
+	}
+}
