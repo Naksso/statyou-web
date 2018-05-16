@@ -21,9 +21,9 @@
 		}
 	}
 
-&__btn-container {
-	float: right;
-}
+	&__btn-container {
+		float: right;
+	}
 
 	/* TODO: Make menu icon */
 	&__menu-icon {
