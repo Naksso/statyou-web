@@ -5,14 +5,29 @@
 		margin-right: -100px;
 	}
 
+	&--gutters-small {
+		margin-right: -45px;
+	}
+
 	&--gutters-large > div {
 		padding-right: 100px;
+	}
+
+	&--gutters-large > div {
+		padding-right: 45px;
 	}
 
 	@mixin atMedium {
 		&__medium-6 {
 			float: left;
 			width: 50%;
+		}
+	}
+
+	@mixin atLarge {
+		&__large-4 {
+			float: left;
+			width: 33.33%;
 		}
 	}
 }
