@@ -1,0 +1,8 @@
+.primary-nav {
+	padding-top: 0;
+
+	@mixin atMedium {
+		float: right;
+		z-index: 30;
+	}
+}
