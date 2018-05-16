@@ -3,6 +3,10 @@
 
 	@mixin atMedium {
 		float: right;
-		z-index: 30;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
 	}
 }
