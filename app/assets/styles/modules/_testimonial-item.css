@@ -1,6 +1,16 @@
 .testimonial-item {
 	background: rgba(#FFF, .7);
 	padding: 0 18px 1px 18px;
+	margin-bottom: 100px;
+
+	@mixin atLarge {
+		margin-bottom: 0;
+		padding: 0 1.8125rem 1px 1.8125rem;
+	}
+
+	&--last {
+		margin-bottom: 0;
+	}
 
 	&__photo {
 		display: block;

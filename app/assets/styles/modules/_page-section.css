@@ -11,11 +11,19 @@
 	}
 
 	&--testimonials {
-		background-color: #e0e0e0;
+		background-color: #dbedeb;
 
 		@mixin atLarge {
 			background: url('../../../assets/images/testimonial-bg.jpg') center top no-repeat;
 			background-size: cover;
+		}
+	}
+
+	&--no-b-padding-until-large {
+		padding-bottom: 0;
+
+		@mixin atLarge {
+			padding-bottom: 4.5rem;
 		}
 	}
 }
