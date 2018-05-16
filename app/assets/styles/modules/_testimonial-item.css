@@ -1,5 +1,6 @@
 .testimonial-item {
 	background: rgba(#FFF, .7);
+	padding: 0 18px 1px 18px;
 
 	&__photo {
 		display: block;
