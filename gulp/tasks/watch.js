@@ -18,6 +18,8 @@ gulp.task( 'watch', function() {
 	} );
 
 	gulp.watch( './app/assets/styles/**/*.css', gulp.series( 'styles', 'cssInject' ) );
+
+	gulp.watch( './app/assets/scripts/**/*.js' ).on( 'change', gulp.series( 'scripts', () => browserSync.reload() ) );
 } );
 
 gulp.task( 'cssInject', function() {
