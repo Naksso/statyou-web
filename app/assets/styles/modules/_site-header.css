@@ -1,6 +1,7 @@
 .site-header {
 	position: absolute;
 	z-index: 2;
+	padding: 10px 0;
 	background-color: rgba($themeColor, .3);
 	width: 100%;
 
