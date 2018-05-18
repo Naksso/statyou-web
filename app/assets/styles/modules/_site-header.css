@@ -4,6 +4,11 @@
 	padding: 10px 0;
 	background-color: rgba($themeColor, .3);
 	width: 100%;
+	transition: background-color .3s ease-out;
+
+	&--is-expanded {
+		background-color: rgba($themeColor, .6);
+	}
 
 	&__logo {
 		position: absolute;
