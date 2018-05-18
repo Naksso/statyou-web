@@ -27,7 +27,9 @@
 	}
 
 	&__btn-container {
-		float: right;
+		@mixin atMedium {
+			float: right;
+		}
 	}
 
 	&__menu-icon {
