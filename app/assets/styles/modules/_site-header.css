@@ -11,6 +11,7 @@
 
 	@mixin atMedium {
 		background-color: rgba($themeColor, .3);
+		position: fixed;
 	}
 
 	&__logo {
