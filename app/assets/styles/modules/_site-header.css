@@ -25,11 +25,9 @@
 		float: right;
 	}
 
-	/* TODO: Make menu icon */
 	&__menu-icon {
 		width: 20px;
 		height: 19px;
-		background-color: #FFF;
 	 	position: absolute;
 	 	top: 10px;
 	 	right: 10px;
@@ -38,6 +36,37 @@
 		@mixin atMedium {
 			display: none;
 		}
+
+		/* Draw menu icon */
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 20px;
+			height: 3px;
+			background: #FFF;
+ 		}
+
+		&__middle {
+			position: absolute;
+			top: 8px;
+			left: 0;
+			width: 20px;
+			height: 3px;
+			background: #FFF;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 16px;
+			left: 0;
+			width: 20px;
+			height: 3px;
+			background: #FFF;
+		}
+
 	}
 
 	/* TODO: Complete menu contents */
