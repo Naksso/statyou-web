@@ -16,4 +16,11 @@
 		visibility: visible;
 		transform: scale(1);
 	}
+
+	&__content {
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		transform: translateY(-50%);
+	}
 }
