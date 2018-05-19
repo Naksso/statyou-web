@@ -26,4 +26,9 @@ gulp.task( 'createSprite', function() {
 		.pipe( gulp.dest( './app/temp/sprite' ) )
 } )
 
-gulp.task( 'sprites', gulp.series( 'clean', 'createSprite' ) )
+gulp.task( 'copySpriteSvg', function() {
+	return gulp.src( './app/temp/sprite/css/**/*.svg' )
+		.pipe( gulp.dest( './app/assets/images/sprites' ) )
+} )
+
+gulp.task( 'sprites', gulp.series( 'clean', 'createSprite', 'copySpriteSvg' ) )
