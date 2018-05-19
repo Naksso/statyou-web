@@ -17,7 +17,7 @@ const config = {
 }
 
 gulp.task( 'clean', function() {
-	return del( './app/temp/sprite' )
+	return del( [ './app/temp/sprite', './app/assets/images/sprites' ] )
 } )
 
 gulp.task( 'createSprite', function() {
