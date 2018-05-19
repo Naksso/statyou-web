@@ -36,6 +36,10 @@
 				transform: scale(.535);
 			}
 		}
+
+		&__graphic {
+			text-indent: -9999px;
+		 }
 	}
 
 	&__btn-container {
