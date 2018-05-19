@@ -17,12 +17,12 @@ export default class ModalContactUs {
 	}
 
 	openModal() {
-		this.modal.addClass( "modal--is-visible" )
+		this.modal.addClass( "contact-us--is-visible" )
 		return false;
 	}
 
 	closeModal() {
-		this.modal.removeClass( "modal--is-visible" )
+		this.modal.removeClass( "contact-us--is-visible" )
 	}
 
 	keyPressHandler( e ) {
