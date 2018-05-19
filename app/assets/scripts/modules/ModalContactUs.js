@@ -27,7 +27,7 @@ export default class ModalContactUs {
 
 	keyPressHandler( e ) {
 		// If the key is escape,
-		if ( e.keyCode == 27 ) {
+		if ( e.keyCode === 27 ) {
 			this.closeModal()
 		}
 	}
