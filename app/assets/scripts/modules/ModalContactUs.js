@@ -12,6 +12,8 @@ export default class ModalContactUs {
 	events() {
 		this.openModalButton.click( this.openModal.bind( this ) )
 		this.closeModalButton.click( this.closeModal.bind( this ) )
+
+		$( document ).keyup( this.keyPressHandler.bind( this ) )
 	}
 
 	openModal() {
@@ -21,5 +23,12 @@ export default class ModalContactUs {
 
 	closeModal() {
 		this.modal.removeClass( "modal--is-visible" )
+	}
+
+	keyPressHandler( e ) {
+		// If the key is escape,
+		if ( e.keyCode == 27 ) {
+			this.closeModal()
+		}
 	}
 }
