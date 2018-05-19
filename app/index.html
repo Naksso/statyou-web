@@ -9,6 +9,8 @@
 	<meta name="description" content="Don&apos;t plan, now review. Find a little more time for the things you love to do.">
 
 	<link rel="stylesheet" href="temp/styles/styles.css" />
+
+	<script src="/temp/scripts/Vendor.js"></script>
 </head>
 <body>
 <header class="site-header">
@@ -52,7 +54,7 @@
 		<h2 class="section-title section-title--thin section-title--teal section-title--b-margin-small">All your days <strong>in your hand.</strong></h2>
 		<h3 class="section-title section-title--thin section-title--small section-title--orange section-title--b-margin-large">Check how your actual day goes by.</h3>
 		<div class="wrapper wrapper--medium wrapper--b-margin">
-			<img srcset="assets/images/review-yourself.jpg 1059w, assets/images/review-yourself-hi-dpi.jpg 2118w" />
+			<img class="lazyload" data-srcset="assets/images/review-yourself.jpg 1059w, assets/images/review-yourself-hi-dpi.jpg 2118w" />
 		</div>
 	</div>
 </section>
@@ -87,13 +89,13 @@
 		</div>
 	</div>
 </section>
-<section id="testimonials" class="page-section page-section--testimonials page-section--no-b-padding-until-large">
+<section id="testimonials" class="page-section page-section--testimonials page-section--no-b-padding-until-large lazyload">
 	<div class="wrapper wrapper--no-padding-until-large">
 		<h2 class="section-title section-title--teal"><span class="section-title__icon icon icon--testimonials"></span>Real <strong>Testimonials</strong></h2>
 		<div class="row row--gutters-small row--t-padding row--equal-height-at-large generic-content-container">
 			<div class="row__large-4">
 				<div class="testimonial-item">
-					<img class="testimonial-item__photo" sizes="160px" srcset="assets/images/testimonial-kyle.jpg 160w, assets/images/testimonial-kyle-hi-dpi.jpg 320w" alt="Kyle Loftus" />
+					<img class="testimonial-item__photo lazyload" sizes="160px" data-srcset="assets/images/testimonial-kyle.jpg 160w, assets/images/testimonial-kyle-hi-dpi.jpg 320w" alt="Kyle Loftus" />
 					<h3 class="testimonial-item__title">Kyle Loftus</h3>
 					<h4 class="testimonial-item__subtitle">Consultant</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis enim id ipsam iure nulla, numquam unde. Accusantium doloremque magnam minima optio? Aliquid cupiditate doloribus iure nesciunt praesentium tempora, voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam, blanditiis eius id modi nemo pariatur perspiciatis quo tempora voluptas.</p>
@@ -101,7 +103,7 @@
 			</div>
 			<div class="row__large-4">
 				<div class="testimonial-item">
-					<img class="testimonial-item__photo" sizes="160px" srcset="assets/images/testimonial-haydn.jpg 160w, assets/images/testimonial-haydn-hi-dpi.jpg 320w" alt="Haydn Golden" />
+					<img class="testimonial-item__photo lazyload" sizes="160px" data-srcset="assets/images/testimonial-haydn.jpg 160w, assets/images/testimonial-haydn-hi-dpi.jpg 320w" alt="Haydn Golden" />
 					<h3 class="testimonial-item__title">Haydn Golden</h3>
 					<h4 class="testimonial-item__subtitle">Lawyer</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam, blanditiis eius id modi nemo pariatur perspiciatis quo tempora voluptas. Architecto enim itaque labore laborum laudantium molestiae nihil quod vitae? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -109,7 +111,7 @@
 			</div>
 			<div class="row__large-4">
 				<div class="testimonial-item testimonial-item--last">
-					<img class="testimonial-item__photo" sizes="160px" srcset="assets/images/testimonial-elijah.jpg 160w, assets/images/testimonial-elijah-hi-dpi.jpg 320w" alt="Elijah Henderson" />
+					<img class="testimonial-item__photo lazyload" sizes="160px" data-srcset="assets/images/testimonial-elijah.jpg 160w, assets/images/testimonial-elijah-hi-dpi.jpg 320w" alt="Elijah Henderson" />
 					<h3 class="testimonial-item__title">Elijah Henderson</h3>
 					<h4 class="testimonial-item__subtitle">College student</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam, blanditiis eius id modi nemo pariatur perspiciatis quo tempora voluptas. Architecto enim itaque labore laborum laudantium molestiae nihil quod vitae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam, blanditiis eius id modi nemo pariatur perspiciatis quo tempora.</p>
