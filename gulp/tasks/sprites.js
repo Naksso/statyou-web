@@ -9,6 +9,7 @@ const config = {
 			render: {
 				css: {
 					template: './gulp/templates/sprite.css',
+					dest: '_sprite.css'
 				},
 			},
 		},
