@@ -19,20 +19,20 @@
     "url": "https://github.com/Naksso/statyou-web.git"
   },
   "devDependencies": {
-    "autoprefixer": "^8.5.0",
+    "autoprefixer": "^10.4.14",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "browser-sync": "^2.29.1",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
-    "gulp-postcss": "^7.0.1",
+    "gulp-postcss": "^9.0.1",
     "gulp-svg-sprite": "^1.4.0",
-    "postcss-hexrgba": "^1.0.1",
-    "postcss-import": "^11.1.0",
-    "postcss-mixins": "^6.2.0",
-    "postcss-nested": "^3.0.0",
-    "postcss-simple-vars": "^4.1.0",
+    "postcss-hexrgba": "^2.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^6.0.1",
+    "postcss-simple-vars": "^7.0.1",
     "webpack": "^4.8.3"
   },
   "dependencies": {
